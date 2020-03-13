@@ -7,7 +7,7 @@ nums = []
 
 for line in sys.stdin:
     try:
-        nums.append(int(line))
+        nums.append(float(line))
     except ValueError:
         continue
 
